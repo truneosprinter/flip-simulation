@@ -11,6 +11,6 @@ Please note that I ahve set the maximum particles to 100,000 due to the power of
 
 In order to run the program:
 - On Linux / MacOS, please install Make, and run ```make run``` to run the simulation from the source directory
-- On Windows, download the standalone executable in the releases tab, or compile yourself using the instructions above
+- On Windows, please use WSL or some other method of posix emulation (the program relies on Termios which is a posix-only application)
 
 This project was entirely developed by me as of 2025, please enjoy using it!
