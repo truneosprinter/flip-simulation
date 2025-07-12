@@ -1,5 +1,5 @@
 # FLIP Simulation in the Terminal using C + termios for input
--------------------------------------------------------------
+
 This is a simple single-file C program that I created in order to better understand the FLIP (FLuid Implicit Particle) simulation created in the 1980s to simulate plasma flow - in this case I have instead repurposed it to create an interactive fluid flow program.
 
 In terms of inputs:
