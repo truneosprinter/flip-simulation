@@ -9,6 +9,8 @@ In terms of inputs:
 
 Please note that I ahve set the maximum particles to 100,000 due to the power of my computer, however on lower end systems this could lead to crashing of the program - please feel free to change this if you are trying out the code for yourself!
 
-In order to compile, simply run ```make run``` in the cloned directory
+In order to run the program:
+- On Linux / MacOS, please install Make, and run ```make run``` to run the simulation from the source directory
+- On Windows, download the standalone executable in the releases tab, or compile yourself using the instructions above
 
 This project was entirely developed by me as of 2025, please enjoy using it!
