@@ -8,8 +8,8 @@
 #include <termios.h>
 #include <fcntl.h>
 
-#define WIDTH 50
-#define HEIGHT 25
+#define WIDTH 120
+#define HEIGHT 53
 #define FRAME_DELAY 45000
 #define MAX_PARTICLES 100000
 #define GRAVITY 0.15f
@@ -178,7 +178,7 @@ void moveParticles() {
 
 void drawDisplay() {
     printf("\033[H");
-    memset(display, '.', sizeof(display));
+    memset(display, ' ', sizeof(display));
     for (int i = 0; i < particle_count; i++) {
         int x = (int)particles[i].x;
         int y = (int)particles[i].y;
